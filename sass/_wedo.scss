@@ -1,0 +1,39 @@
+
+
+.wedo {
+    padding: 36px 0;
+}
+
+.wedo__title {
+    max-width: 150px;
+    margin: 0 auto 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bdbdbd;
+    color: #BDBDBD; 
+}
+
+.wedo__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.wedo__item {
+    max-width: 350px;
+}
+
+.wedo__item {
+    text-align: center;
+
+    & img {
+        margin: 0 0 20px;
+    }
+}
+
+.wodo__subtitle {
+    margin: 0 0 15px;
+    font-weight: 600;
+}

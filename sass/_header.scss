@@ -1,0 +1,39 @@
+
+
+.site-header {
+    padding: 10px 0;
+    background-color: #0C108E;
+}
+
+.site-header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: auto;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-right: 32px;
+}
+
+.nav__link {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-header__link {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: #00BD9C;
+}
+

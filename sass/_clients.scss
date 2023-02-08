@@ -1,0 +1,29 @@
+
+
+.clients {
+    padding: 0;
+    padding-top: 30px;
+    background-color: #F4F4F4;
+}
+
+.clients__inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.clients__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.client__title-title {
+    max-width: 260px;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bdbdbd;
+    color: #BDBDBD; 
+}
