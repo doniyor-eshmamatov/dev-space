@@ -37,3 +37,32 @@
     background-color: #00BD9C;
 }
 
+.menu-btn {
+    display: none;
+    margin-right: auto;
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    transition: all 200ms;
+}
+
+.rotate-btn {
+    transform: rotateX(80deg);
+}
+
+@media (max-width: 576px) {
+    .site-header__inner {
+        flex-direction: row-reverse;
+    }
+    .nav {
+        display: none;
+    }
+
+    .site-header__link {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}

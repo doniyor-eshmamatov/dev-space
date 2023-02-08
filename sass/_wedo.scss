@@ -37,3 +37,16 @@
     margin: 0 0 15px;
     font-weight: 600;
 }
+
+
+@media (max-width: 576px) {
+    .wedo__list {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wedo__item {
+        margin-bottom: 24px;
+    }
+}

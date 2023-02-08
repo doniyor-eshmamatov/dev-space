@@ -1,7 +1,7 @@
 
 
 .team {
-    padding: 0;
+    padding: 0 0 30px;
     padding-top: 30px;
     background-color: #F4F4F4;
 }
@@ -32,4 +32,15 @@
     color: #8281DB;
     text-align: center;
     margin: 10px 0;
+}
+
+
+@media (max-width: 576px) {
+    .team__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .team__item {
+        margin-bottom: 24px;
+    }
 }

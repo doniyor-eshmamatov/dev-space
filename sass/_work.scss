@@ -68,3 +68,24 @@
     text-decoration: none;
     text-align: center;
 }
+
+
+@media (max-width: 576px) {
+    .work__text {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .work__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .work__item {
+        margin-bottom: 24px;
+    }
+
+    .work__subtitle {
+        font-size: 22px;
+    }
+}
